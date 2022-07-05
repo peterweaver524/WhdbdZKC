@@ -21,13 +21,11 @@ preferences:
     lock: []
 
 outgoing:
-    request_timeout : 1.0 # seconds
     useragent_suffix : ""
 
 engines:
   - name : general dummy
     engine : dummy
-    categories : general
     shortcut : gd
 
   - name : dummy dummy
